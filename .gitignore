@@ -1,1 +1,4 @@
 *.csv
+*.tiff
+*__pycache__
+Lab1/*.txt
