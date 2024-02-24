@@ -21,7 +21,7 @@ The data consists of interval values of a variable, functions, and error values 
 
 | Function | Chi-square | p-value | Null-hypothesis | R2-score | MSE | Calculated param | Left confidence interval | Right confidence interval |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| Normal | 38.34 | 0.0 | Reject | 0.84 | 0.00097 | 1.44 | 1.42 | 1.75 |
+| Normal | 38.34 | 0.0 | Reject | 0.84 | $0.00097$ | 1.44 | 1.42 | 1.75 |
 |  |  |  |  | |  | 1.76 | 1.46 | 1.78 |
-| Rayleigh | 62.17 | 0.0 | Reject | 0.19 | 0.00499 | 1.98 | 1.96 | 2.00 |
+| Rayleigh | 62.17 | 0.0 | Reject | 0.19 | $0.00499$ | 1.98 | 1.96 | 2.00 |
 | Chi-square | 1.10 | 0.15 | Accept | 0.98 | $7.72*10{-5}$ | 2.80 | 2.79 | 2.81 |
