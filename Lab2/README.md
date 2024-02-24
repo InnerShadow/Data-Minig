@@ -10,7 +10,7 @@ The data consists of interval values of a variable, functions, and error values 
 ### Procedure:
 1. Data on the argument, function, and errors were obtained from a .txt file.
 2. Attempts were made to approximate the empirical data using three different distribution laws: Normal, Rayleigh, and Chi-square. Corresponding distribution functions were created.
-3. The curve_fit function from the scipy module was imported to fit the parameters of the function used to approximate the data. The parameters are adjusted to minimize the squared error between the assumed function and the empirical data.
+3. The curve_fit function from the scipy module was imported curve_fit to fit the parameters of the function used to approximate the data. The parameters are adjusted to minimize the squared error between the assumed function and the empirical data.
 4. The normalized Chi-square criterion was calculated for each model with a significance level alpha = 0.05. Based on the p-value, a decision was made to accept or reject the null hypothesis of statistical difference between empirical data and the approximating function.
 5. A residual distribution plot was created to visually assess the degree of agreement between measured data and the theoretical model.
 6. An autocorrelation function of weighted residuals was constructed. If there are minor systematic deviations between experimental and theoretical characteristics that are indistinguishable from the residual distribution plot, an autocorrelation function of weighted residuals is used to detect them.
