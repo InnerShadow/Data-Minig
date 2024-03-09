@@ -7,7 +7,7 @@
 
 The data consists of 8 feature columns. The date is available [here](/Lab3/data3.txt).
 
-### Task:
+### Task
 
 1. Develop the algorithm for the Principal Component Analysis (PCA) method and implement it programmatically.
 2. Conduct an analysis of experimental data using the Principal Component Analysis method.
@@ -21,7 +21,7 @@ The data consists of 8 feature columns. The date is available [here](/Lab3/data3
     3. Based on the first M = 2 principal components, construct a scatter plot. Provide a meaningful interpretation of the first two principal components.
 
 
-### Procedure:
+### Procedure
 
 1. Data was obtained from a .txt file.
 2. Exploratory Data Analysis (EDA) was conducted on the obtained data. Descriptive statistics were displayed, distribution histograms and boxplot graphs were constructed.
