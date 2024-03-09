@@ -5,9 +5,10 @@
 
 ### Data
 
-The data consists of interval values of a variable, functions, and error values at each point. A total of 200 samples.
+The data consists of interval values of a variable, functions, and error values at each point. A total of 200 samples. Data is avalible [here](/Lab2/data3.txt).
 
-### Procedure:
+### Procedure
+
 1. Data on the argument, function, and errors were obtained from a .txt file.
 2. Attempts were made to approximate the empirical data using three different distribution laws: Normal, Rayleigh, and Chi-square. Corresponding distribution functions were created.
 3. The curve_fit function from the scipy module was imported curve_fit to fit the parameters of the function used to approximate the data. The parameters are adjusted to minimize the squared error between the assumed function and the empirical data.
